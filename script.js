@@ -35,23 +35,22 @@ function unselectAll() {
 function setNewSelectedItem(pageName) {
     document.querySelectorAll('.logo_wrapper').forEach(item => {
         console.log(item.id, pageName)
-        if(item.id === pageName) {
+        if (item.id === pageName) {
             selectedItem = item;
             localStorage.setItem("selected_page", pageName);
             item.classList.add("is_selected");
         }
-    })   
+    })
 }
 
-function loadPage(pageName)
-{
-    fetch("./pages/"+pageName+".html")
-  .then(response => {
-    return response.text()
-  })
-  .then(data => {
-    document.querySelector("#page_container").innerHTML = data;
-  }); 
+function loadPage(pageName) {
+    fetch("./pages/" + pageName + ".html")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            document.querySelector("#page_container").innerHTML = data;
+        });
 }
 
 

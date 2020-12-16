@@ -1,90 +1,336 @@
 <html>
-<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-<style type="text/css">
-<!--
-span.cls_003{font-family:"Consolas",serif;font-size:10.0px;color:rgb(236,245,224);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_003{font-family:"Consolas",serif;font-size:10.0px;color:rgb(236,245,224);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_004{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_004{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_005{font-family:"Consolas",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_005{font-family:"Consolas",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_006{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_006{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_008{font-family:"Consolas Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_008{font-family:"Consolas Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_012{font-family:"Consolas Bold",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_012{font-family:"Consolas Bold",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_009{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(50,50,50);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_009{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(50,50,50);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_010{font-family:"Consolas",serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_010{font-family:"Consolas",serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_011{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(50,50,50);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_011{font-family:"Consolas Bold",serif;font-size:14.1px;color:rgb(50,50,50);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_013{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_013{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_014{font-family:"Consolas Bold",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_014{font-family:"Consolas Bold",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_015{font-family:"Consolas",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_015{font-family:"Consolas",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
--->
-</style>
-<script type="text/javascript" src="cv_files/wz_jsgraphics.js"></script>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <style type="text/css">
+        <!--
+        span.cls_003 {
+            font-family: "Consolas", serif;
+            font-size: 10.0px;
+            color: rgb(236, 245, 224);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_003 {
+            font-family: "Consolas", serif;
+            font-size: 10.0px;
+            color: rgb(236, 245, 224);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_004 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_004 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_005 {
+            font-family: "Consolas", serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_005 {
+            font-family: "Consolas", serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_006 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_006 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_008 {
+            font-family: "Consolas Bold", serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_008 {
+            font-family: "Consolas Bold", serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_012 {
+            font-family: "Consolas Bold", serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_012 {
+            font-family: "Consolas Bold", serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_009 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(50, 50, 50);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_009 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(50, 50, 50);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_010 {
+            font-family: "Consolas", serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_010 {
+            font-family: "Consolas", serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_011 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(50, 50, 50);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_011 {
+            font-family: "Consolas Bold", serif;
+            font-size: 14.1px;
+            color: rgb(50, 50, 50);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_013 {
+            font-family: Arial, serif;
+            font-size: 10.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_013 {
+            font-family: Arial, serif;
+            font-size: 10.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_014 {
+            font-family: "Consolas Bold", serif;
+            font-size: 10.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_014 {
+            font-family: "Consolas Bold", serif;
+            font-size: 10.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_015 {
+            font-family: "Consolas", serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_015 {
+            font-family: "Consolas", serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+        -->
+    </style>
+    <script type="text/javascript" src="cv_files/wz_jsgraphics.js"></script>
 </head>
+
 <body>
-<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
-<div style="position:absolute;left:0px;top:0px">
-<img src="cv_files/background1.jpg" width=595 height=841></div>
-<div style="position:absolute;left:81.62px;top:17.80px" class="cls_003"><span class="cls_003">RESUME</span></div>
-<div style="position:absolute;left:276.41px;top:45.86px" class="cls_004"><span class="cls_004">Personal Summary</span></div>
-<div style="position:absolute;left:275.69px;top:87.18px" class="cls_005"><span class="cls_005">An adaptable and goal-oriented college studentŜ Working</span></div>
-<div style="position:absolute;left:275.69px;top:99.78px" class="cls_005"><span class="cls_005">towards a bachelor's degree in Field of Information sci-</span></div>
-<div style="position:absolute;left:275.69px;top:112.26px" class="cls_005"><span class="cls_005">ence at the University of Maribor Faculty of Electrical</span></div>
-<div style="position:absolute;left:275.69px;top:124.86px" class="cls_005"><span class="cls_005">Engineering and Computer ScienceŜ Aiming to use my</span></div>
-<div style="position:absolute;left:275.69px;top:137.34px" class="cls_005"><span class="cls_005">knowledge that I have acquired from my coursework as well</span></div>
-<div style="position:absolute;left:275.69px;top:149.94px" class="cls_005"><span class="cls_005">as self-study alow you with my hard work and persistence</span></div>
-<div style="position:absolute;left:275.69px;top:162.42px" class="cls_005"><span class="cls_005">to be a good asset to your teamŜ</span></div>
-<div style="position:absolute;left:276.41px;top:239.61px" class="cls_006"><span class="cls_006">Education</span></div>
-<div style="position:absolute;left:48.96px;top:278.97px" class="cls_003"><span class="cls_003">Software Developer</span></div>
-<div style="position:absolute;left:275.69px;top:279.69px" class="cls_008"><span class="cls_008">Bachelor degree</span></div>
-<div style="position:absolute;left:507.10px;top:279.69px" class="cls_012"><span class="cls_012">Oct 2015—Present</span></div>
-<div style="position:absolute;left:275.69px;top:298.29px" class="cls_008"><span class="cls_008">University Maribor, Faculty of Electrical</span></div>
-<div style="position:absolute;left:275.69px;top:310.77px" class="cls_008"><span class="cls_008">Engineering and Computer Science. </span><span class="cls_005">Anticipated</span></div>
-<div style="position:absolute;left:275.69px;top:323.37px" class="cls_005"><span class="cls_005">date of Graduation Seb 2ɥ2ɥ in field of In-</span></div>
-<div style="position:absolute;left:275.69px;top:335.85px" class="cls_005"><span class="cls_005">formation scienceŜ</span></div>
-<div style="position:absolute;left:41.04px;top:355.87px" class="cls_009"><span class="cls_009">Contacts</span></div>
-<div style="position:absolute;left:507.10px;top:378.35px" class="cls_012"><span class="cls_012">May 2018—Oct 2018</span></div>
-<div style="position:absolute;left:59.30px;top:383.27px" class="cls_010"><span class="cls_010">Ličenca 31,</span></div>
-<div style="position:absolute;left:275.69px;top:380.27px" class="cls_008"><span class="cls_008">Bachelor degree</span></div>
-<div style="position:absolute;left:59.30px;top:397.43px" class="cls_010"><span class="cls_010">Loče pri Poljčanah, SLO</span></div>
-<div style="position:absolute;left:275.69px;top:398.87px" class="cls_008"><span class="cls_008">(Exchange student program 4th semester)</span></div>
-<div style="position:absolute;left:59.30px;top:419.03px" class="cls_010"><span class="cls_010">+386 3ɥ 678 369</span></div>
-<div style="position:absolute;left:275.69px;top:417.35px" class="cls_008"><span class="cls_008">Technical University of Braunschweig  Faculty</span></div>
-<div style="position:absolute;left:275.69px;top:429.95px" class="cls_008"><span class="cls_008">of Informatic. </span><span class="cls_005">Finished 4 courses exchange</span></div>
-<div style="position:absolute;left:61.58px;top:442.19px" class="cls_010"><span class="cls_010">primozratej@gmailŜcom</span></div>
-<div style="position:absolute;left:275.69px;top:442.43px" class="cls_005"><span class="cls_005">program from field of computer scienceŜ</span></div>
-<div style="position:absolute;left:40.32px;top:471.95px" class="cls_011"><span class="cls_011">Languages</span></div>
-<div style="position:absolute;left:507.10px;top:493.19px" class="cls_012"><span class="cls_012">Seb 2011—Jun 2015</span></div>
-<div style="position:absolute;left:275.69px;top:495.11px" class="cls_008"><span class="cls_008">High school diploma</span></div>
-<div style="position:absolute;left:57.02px;top:499.91px" class="cls_013"><span class="cls_013">+ </span><span class="cls_010"> Slovenian</span></div>
-<div style="position:absolute;left:275.69px;top:513.71px" class="cls_008"><span class="cls_008">School center Celje, High school for che-</span></div>
-<div style="position:absolute;left:57.02px;top:519.74px" class="cls_013"><span class="cls_013">+ </span><span class="cls_010"> English</span></div>
-<div style="position:absolute;left:275.69px;top:526.22px" class="cls_008"><span class="cls_008">mistry electronic and computer science.</span></div>
-<div style="position:absolute;left:57.02px;top:539.54px" class="cls_013"><span class="cls_013">+ </span><span class="cls_010"> German</span></div>
-<div style="position:absolute;left:275.69px;top:538.82px" class="cls_005"><span class="cls_005">Finished 4 years of high school in the field</span></div>
-<div style="position:absolute;left:275.69px;top:551.30px" class="cls_005"><span class="cls_005">of computer scienceŜ</span></div>
-<div style="position:absolute;left:40.32px;top:578.06px" class="cls_011"><span class="cls_011">Social</span></div>
-<div style="position:absolute;left:65.90px;top:601.82px" class="cls_014"><span class="cls_014">Facebook</span></div>
-<div style="position:absolute;left:65.90px;top:621.86px" class="cls_015"><span class="cls_015">/primozŜratejŜ9</span></div>
-<div style="position:absolute;left:276.41px;top:616.70px" class="cls_006"><span class="cls_006">Skills</span></div>
-<div style="position:absolute;left:277.73px;top:650.06px" class="cls_008"><span class="cls_008">Operating systems</span><span class="cls_005">: Windows, Linux</span></div>
-<div style="position:absolute;left:65.90px;top:659.66px" class="cls_014"><span class="cls_014">Instagram</span></div>
-<div style="position:absolute;left:277.73px;top:666.62px" class="cls_008"><span class="cls_008">Languages</span><span class="cls_005">: C, C#, JavaScript</span></div>
-<div style="position:absolute;left:65.90px;top:679.72px" class="cls_015"><span class="cls_015">@primozratej</span></div>
-<div style="position:absolute;left:277.73px;top:683.20px" class="cls_008"><span class="cls_008">Web technologies</span><span class="cls_005">: HTML, CSS, Ajax, JQuery</span></div>
-<div style="position:absolute;left:277.73px;top:699.64px" class="cls_008"><span class="cls_008">Databases</span><span class="cls_005">: SQL, SQL Server, Oracle, MongoDB</span></div>
-<div style="position:absolute;left:61.58px;top:713.20px" class="cls_014"><span class="cls_014">LinkedIn</span></div>
-<div style="position:absolute;left:61.58px;top:733.24px" class="cls_015"><span class="cls_015">/in/primož-ratej</span></div>
-</div>
+    <div
+        style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+        <div style="position:absolute;left:0px;top:0px">
+            <img src="cv_files/background1.jpg" width=595 height=841></div>
+        <div style="position:absolute;left:81.62px;top:17.80px" class="cls_003"><span class="cls_003">RESUME</span>
+        </div>
+        <div style="position:absolute;left:276.41px;top:45.86px" class="cls_004"><span class="cls_004">Personal
+                Summary</span></div>
+        <div style="position:absolute;left:275.69px;top:87.18px" class="cls_005"><span class="cls_005">An adaptable and
+                goal-oriented college studentŜ Working</span></div>
+        <div style="position:absolute;left:275.69px;top:99.78px" class="cls_005"><span class="cls_005">towards a
+                bachelor's degree in Field of Information sci-</span></div>
+        <div style="position:absolute;left:275.69px;top:112.26px" class="cls_005"><span class="cls_005">ence at the
+                University of Maribor Faculty of Electrical</span></div>
+        <div style="position:absolute;left:275.69px;top:124.86px" class="cls_005"><span class="cls_005">Engineering and
+                Computer ScienceŜ Aiming to use my</span></div>
+        <div style="position:absolute;left:275.69px;top:137.34px" class="cls_005"><span class="cls_005">knowledge that I
+                have acquired from my coursework as well</span></div>
+        <div style="position:absolute;left:275.69px;top:149.94px" class="cls_005"><span class="cls_005">as self-study
+                alow you with my hard work and persistence</span></div>
+        <div style="position:absolute;left:275.69px;top:162.42px" class="cls_005"><span class="cls_005">to be a good
+                asset to your teamŜ</span></div>
+        <div style="position:absolute;left:276.41px;top:239.61px" class="cls_006"><span class="cls_006">Education</span>
+        </div>
+        <div style="position:absolute;left:48.96px;top:278.97px" class="cls_003"><span class="cls_003">Software
+                Developer</span></div>
+        <div style="position:absolute;left:275.69px;top:279.69px" class="cls_008"><span class="cls_008">Bachelor
+                degree</span></div>
+        <div style="position:absolute;left:507.10px;top:279.69px" class="cls_012"><span class="cls_012">Oct
+                2015—Present</span></div>
+        <div style="position:absolute;left:275.69px;top:298.29px" class="cls_008"><span class="cls_008">University
+                Maribor, Faculty of Electrical</span></div>
+        <div style="position:absolute;left:275.69px;top:310.77px" class="cls_008"><span class="cls_008">Engineering and
+                Computer Science. </span><span class="cls_005">Anticipated</span></div>
+        <div style="position:absolute;left:275.69px;top:323.37px" class="cls_005"><span class="cls_005">date of
+                Graduation Seb 2ɥ2ɥ in field of In-</span></div>
+        <div style="position:absolute;left:275.69px;top:335.85px" class="cls_005"><span class="cls_005">formation
+                scienceŜ</span></div>
+        <div style="position:absolute;left:41.04px;top:355.87px" class="cls_009"><span class="cls_009">Contacts</span>
+        </div>
+        <div style="position:absolute;left:507.10px;top:378.35px" class="cls_012"><span class="cls_012">May 2018—Oct
+                2018</span></div>
+        <div style="position:absolute;left:59.30px;top:383.27px" class="cls_010"><span class="cls_010">Ličenca
+                31,</span></div>
+        <div style="position:absolute;left:275.69px;top:380.27px" class="cls_008"><span class="cls_008">Bachelor
+                degree</span></div>
+        <div style="position:absolute;left:59.30px;top:397.43px" class="cls_010"><span class="cls_010">Loče pri
+                Poljčanah, SLO</span></div>
+        <div style="position:absolute;left:275.69px;top:398.87px" class="cls_008"><span class="cls_008">(Exchange
+                student program 4th semester)</span></div>
+        <div style="position:absolute;left:59.30px;top:419.03px" class="cls_010"><span class="cls_010">+386 3ɥ 678
+                369</span></div>
+        <div style="position:absolute;left:275.69px;top:417.35px" class="cls_008"><span class="cls_008">Technical
+                University of Braunschweig Faculty</span></div>
+        <div style="position:absolute;left:275.69px;top:429.95px" class="cls_008"><span class="cls_008">of Informatic.
+            </span><span class="cls_005">Finished 4 courses exchange</span></div>
+        <div style="position:absolute;left:61.58px;top:442.19px" class="cls_010"><span
+                class="cls_010">primozratej@gmailŜcom</span></div>
+        <div style="position:absolute;left:275.69px;top:442.43px" class="cls_005"><span class="cls_005">program from
+                field of computer scienceŜ</span></div>
+        <div style="position:absolute;left:40.32px;top:471.95px" class="cls_011"><span class="cls_011">Languages</span>
+        </div>
+        <div style="position:absolute;left:507.10px;top:493.19px" class="cls_012"><span class="cls_012">Seb 2011—Jun
+                2015</span></div>
+        <div style="position:absolute;left:275.69px;top:495.11px" class="cls_008"><span class="cls_008">High school
+                diploma</span></div>
+        <div style="position:absolute;left:57.02px;top:499.91px" class="cls_013"><span class="cls_013">+ </span><span
+                class="cls_010"> Slovenian</span></div>
+        <div style="position:absolute;left:275.69px;top:513.71px" class="cls_008"><span class="cls_008">School center
+                Celje, High school for che-</span></div>
+        <div style="position:absolute;left:57.02px;top:519.74px" class="cls_013"><span class="cls_013">+ </span><span
+                class="cls_010"> English</span></div>
+        <div style="position:absolute;left:275.69px;top:526.22px" class="cls_008"><span class="cls_008">mistry
+                electronic and computer science.</span></div>
+        <div style="position:absolute;left:57.02px;top:539.54px" class="cls_013"><span class="cls_013">+ </span><span
+                class="cls_010"> German</span></div>
+        <div style="position:absolute;left:275.69px;top:538.82px" class="cls_005"><span class="cls_005">Finished 4 years
+                of high school in the field</span></div>
+        <div style="position:absolute;left:275.69px;top:551.30px" class="cls_005"><span class="cls_005">of computer
+                scienceŜ</span></div>
+        <div style="position:absolute;left:40.32px;top:578.06px" class="cls_011"><span class="cls_011">Social</span>
+        </div>
+        <div style="position:absolute;left:65.90px;top:601.82px" class="cls_014"><span class="cls_014">Facebook</span>
+        </div>
+        <div style="position:absolute;left:65.90px;top:621.86px" class="cls_015"><span
+                class="cls_015">/primozŜratejŜ9</span></div>
+        <div style="position:absolute;left:276.41px;top:616.70px" class="cls_006"><span class="cls_006">Skills</span>
+        </div>
+        <div style="position:absolute;left:277.73px;top:650.06px" class="cls_008"><span class="cls_008">Operating
+                systems</span><span class="cls_005">: Windows, Linux</span></div>
+        <div style="position:absolute;left:65.90px;top:659.66px" class="cls_014"><span class="cls_014">Instagram</span>
+        </div>
+        <div style="position:absolute;left:277.73px;top:666.62px" class="cls_008"><span
+                class="cls_008">Languages</span><span class="cls_005">: C, C#, JavaScript</span></div>
+        <div style="position:absolute;left:65.90px;top:679.72px" class="cls_015"><span
+                class="cls_015">@primozratej</span></div>
+        <div style="position:absolute;left:277.73px;top:683.20px" class="cls_008"><span class="cls_008">Web
+                technologies</span><span class="cls_005">: HTML, CSS, Ajax, JQuery</span></div>
+        <div style="position:absolute;left:277.73px;top:699.64px" class="cls_008"><span
+                class="cls_008">Databases</span><span class="cls_005">: SQL, SQL Server, Oracle, MongoDB</span></div>
+        <div style="position:absolute;left:61.58px;top:713.20px" class="cls_014"><span class="cls_014">LinkedIn</span>
+        </div>
+        <div style="position:absolute;left:61.58px;top:733.24px" class="cls_015"><span
+                class="cls_015">/in/primož-ratej</span></div>
+    </div>
 
 </body>
+
 </html>
