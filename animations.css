@@ -1,0 +1,26 @@
+/* The wrapper class that will contain the logo and the text */
+.logo_wrapper {
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  /* The logo will be the same height as the wrapper and transition for 300ms */
+  .logo_wrapper i {
+    height: 40px;
+    width: auto;
+    transition: transform 300ms;
+  }
+  
+  /* The text should also transition for 300ms */
+  .logo_wrapper .logo_text {
+    transition: transform 300ms;
+  }
+  
+  /* When hovering over the wrapper, the logo and text will "translate" up 40px */
+  .logo_wrapper:hover i, .logo_wrapper:hover .logo_text {
+    transform: translateY(-40px);
+  }
+
+  .is_selected{
+    transition: transform 300ms;
+  }

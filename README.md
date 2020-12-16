@@ -1,1 +1,2 @@
-# Portofolio
+# Portofolio project
+My personal website/portofolio

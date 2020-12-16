@@ -1,0 +1,11 @@
+.page_container, .sidenav {float:left; position: relative; width: 49%;}
+.sidenav {
+    height: 100%;
+    width: 8em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    float: left;
+  }

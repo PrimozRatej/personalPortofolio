@@ -1,0 +1,56 @@
+
+  body {
+    font-family: "Lato", sans-serif;
+    color:#ffffff;
+    background-color: #222;
+  }
+
+.sidenav {
+    height: 100%;
+    width: 8em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    float: left;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+  }
+
+  img {
+    display: block;
+    margin-left: center;
+    margin-right: center;
+    max-width:100%;
+  }
+
+  .img_wrapper{
+    background-color: #070707;
+  }
+
+.icons_wrapper {        
+    text-align: center;
+    padding-top: 4em;
+}
+
+.logo_wrapper {        
+    font-size: 1.5em; 
+    color: white;
+    cursor: pointer;
+}
+
+  .page_container{
+    position: absolute;
+    float: left;
+    margin-left: 8em;
+  }
+
+  .is_selected{
+    color: red;
+  }

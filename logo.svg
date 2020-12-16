@@ -1,0 +1,51 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+ <defs>
+  <path id="cZi5U63I" d="m33.86,34.65l22.77,0l0,103.96l-22.77,0l0,-103.96z"/>
+  <path id="a18O0Rjkw" d="m33.86,34.65l77.63,0l0,25.15l-77.63,0l0,-25.15z"/>
+  <path id="b2IDq1Kx84" d="m87.72,34.65l23.77,0l0,59.41l-23.77,0l0,-59.41z"/>
+  <path id="afajPe2xf" d="m56.63,71.29l54.86,0l0,22.77l-54.86,0l0,-22.77z"/>
+  <path id="jU4aCHjwA" d="m135.6,34.65l22.77,0l0,103.96l-22.77,0l0,-103.96z"/>
+  <path id="ca6fuAYXp" d="m135.6,34.65l77.62,0l0,25.15l-77.62,0l0,-25.15z"/>
+  <path id="a7wow8CLT" d="m190.45,34.65l22.77,0l0,59.41l-22.77,0l0,-59.41z"/>
+  <path id="a4ZCHsnW7g" d="m158.37,74.76l54.85,0l0,19.3l-54.85,0l0,-19.3z"/>
+  <path id="a2ipFGFIGH" d="m167.68,94.06l22.77,0l0,44.55l-22.77,0l0,-44.55z"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="252" width="252" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2">
+    <g id="svg_3">
+     <use x="1.46" y="38.36999" id="svg_4" fill="#c35359" xlink:href="#cZi5U63I"/>
+    </g>
+    <g id="svg_5">
+     <use x="1.46" y="38.36999" id="svg_6" fill="#61dcad" xlink:href="#a18O0Rjkw"/>
+    </g>
+    <g id="svg_7">
+     <use x="1.46" y="38.36999" id="svg_8" fill="#a340e4" xlink:href="#b2IDq1Kx84"/>
+    </g>
+    <g id="svg_9">
+     <use x="1.46" y="38.36999" id="svg_10" fill="#c064d2" xlink:href="#afajPe2xf"/>
+    </g>
+    <g id="svg_11">
+     <use x="1.46" y="38.36999" id="svg_12" fill="#a5f020" xlink:href="#jU4aCHjwA"/>
+    </g>
+    <g id="svg_13">
+     <use x="1.46" y="38.36999" id="svg_14" fill="#8272a6" xlink:href="#ca6fuAYXp"/>
+    </g>
+    <g id="svg_15">
+     <use x="1.46" y="38.36999" id="svg_16" fill="#5a8732" xlink:href="#a7wow8CLT"/>
+    </g>
+    <g id="svg_17">
+     <use x="1.46" y="38.36999" id="svg_18" fill="#fa02f8" xlink:href="#a4ZCHsnW7g"/>
+    </g>
+    <g id="svg_19">
+     <use x="1.46" y="38.36999" id="svg_20" fill="#fc7820" xlink:href="#a2ipFGFIGH"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
