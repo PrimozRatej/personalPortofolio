@@ -48,7 +48,7 @@
   .page_container{
     position: absolute;
     float: left;
-    margin-left: 8em;
+    margin-left: 10em;
   }
 
   .is_selected{
