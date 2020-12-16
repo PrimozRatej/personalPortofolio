@@ -1,6 +1,6 @@
 
   body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Courier New', monospace;
     color:#ffffff;
     background-color: #222;
   }
@@ -8,7 +8,7 @@
 .sidenav {
     height: 100%;
     width: 8em;
-    position: fixed;
+    position: relative;
     z-index: 1;
     top: 0;
     left: 0;
@@ -36,13 +36,19 @@
 
 .icons_wrapper {        
     text-align: center;
-    padding-top: 4em;
+    margin-top: 70%;
+    margin-bottom: 10%;
 }
 
 .logo_wrapper {        
     font-size: 1.5em; 
-    color: white;
+    color: rgb(165, 164, 164);
     cursor: pointer;
+    margin-top: 0.8em;
+}
+.logo_text{
+  font-size: 0.6em;
+  font-weight: bold;
 }
 
   .page_container{
@@ -52,5 +58,10 @@
   }
 
   .is_selected{
-    color: red;
+    color: rgb(151, 43, 43);
+  }
+  .social_wrapper{
+    font-size: 1em; 
+    color: rgb(165, 164, 164);
+    cursor: pointer;
   }
