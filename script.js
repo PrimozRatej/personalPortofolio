@@ -35,6 +35,7 @@ function setNewSelectedItem(item) {
 }
 
 function loadPage(page) {
+    console.log("loading page...");
     var xhr = new XMLHttpRequest();
     xhr.open('GET', page+'.html', true);
     xhr.onreadystatechange = function () {
